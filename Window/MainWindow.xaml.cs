@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApp1.Classes;
 
 namespace WpfApp1
 {
@@ -33,6 +34,22 @@ namespace WpfApp1
             reg.Show();
 
             this.Hide();
+
+        }
+
+        private void voyti_Click(object sender, RoutedEventArgs e)
+        {
+            var login = LoginBox.Text;
+            var password = PasswordBox.Text;
+            var context = new AppDbContext();
+
+            var user = context.Users.FirstOrDefault(x => x.Login == login && x.Password == password);
+            if (user is null)
+            {
+                MessageBox.Show("Введенные данные не верны");
+                return;
+            }
+            MessageBox.Show("Вы успешно вошли в аккаунт");
         }
     }
 }

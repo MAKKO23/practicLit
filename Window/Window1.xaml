@@ -33,16 +33,16 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBox Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="6"/>
-        <TextBox Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="6"/>
-        <TextBox Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="6"/>
-        <TextBox Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="6"/>
+        <TextBox Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="6" x:Name="MailBox"/>
+        <TextBox Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="6" x:Name="LoginBox"/>
+        <TextBox Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="6" x:Name="PasswordBox"/>
+        <TextBox Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="6" x:Name="PovtorBox"/>
         <TextBlock Grid.Row="0" Grid.Column="3" Text="Регистрация" VerticalAlignment="Bottom" Grid.ColumnSpan="4" TextAlignment="Center"/>
-        <Image Source="C:\Users\student\Desktop\WpfApp1\Images\men.png" Grid.Column="1" Grid.Row="4"/>
-        <Image Source="C:\Users\student\Desktop\WpfApp1\Images\zamok.png" Grid.Column="1" Grid.Row="6"/>
-        <Image Source="C:\Users\student\Desktop\WpfApp1\Images\povtor.png" Grid.Column="1" Grid.Row="8"/>
-        <Image Source="C:\Users\student\Desktop\WpfApp1\Images\mail.png" Grid.Column="1" Grid.Row="2"/>
-        <Button Content="Зарегаться" x:Name="reg" Grid.Column="4" Grid.Row="10" Grid.ColumnSpan="2" Background="Azure" Click="reg_Click"/>
+        <Image Source="C:\Users\student\Desktop\practicLit\Images\men.png" Grid.Column="1" Grid.Row="4"/>
+        <Image Source="C:\Users\student\Desktop\practicLit\Images\zamok.png" Grid.Column="1" Grid.Row="6"/>
+        <Image Source="C:\Users\student\Desktop\practicLit\Images\povtor.png" Grid.Column="1" Grid.Row="8"/>
+        <Image Source="C:\Users\student\Desktop\practicLit\Images\mail.png" Grid.Column="1" Grid.Row="2"/>
+        <Button Content="Зарегаться" x:Name="reg" Grid.Column="4" Grid.Row="10" Grid.ColumnSpan="2" Background="Azure" Click="reg_Click" />
         <Button x:Name="vozvr" Click="vozvr_Click" />
     </Grid>
 </Window>

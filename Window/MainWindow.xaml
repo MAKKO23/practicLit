@@ -31,12 +31,12 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBox Grid.Column="3" Grid.Row="3" Grid.ColumnSpan="4"/>
-        <TextBox Grid.Column="3" Grid.Row="5" Grid.ColumnSpan="4"/>
-        <Image Source="C:\Users\student\Desktop\WpfApp1\Images\eye.png" Grid.Column="7" Grid.Row="3" x:Name="eye"/>
-        <Image Source="C:\Users\student\Desktop\WpfApp1\Images\men.png" Grid.Column="2" Grid.Row="3"/>
-        <Image Source="C:\Users\student\Desktop\WpfApp1\Images\zamok.png" Grid.Column="2" Grid.Row="5"/>
-        <Button Name="voyti" Content="Voyti" Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="8" Background="Azure"/>
+        <TextBox Grid.Column="3" Grid.Row="3" Grid.ColumnSpan="4" x:Name="LoginBox"/>
+        <TextBox Grid.Column="3" Grid.Row="5" Grid.ColumnSpan="4" x:Name="PasswordBox"/>
+        <Image Source="C:\Users\student\Desktop\practicLit\Images\eye.png" Grid.Column="7" Grid.Row="3" x:Name="eye"/>
+        <Image Source="C:\Users\student\Desktop\practicLit\Images\men.png" Grid.Column="2" Grid.Row="3"/>
+        <Image Source="C:\Users\student\Desktop\practicLit\Images\zamok.png" Grid.Column="2" Grid.Row="5"/>
+        <Button Name="voyti" Content="Voyti" Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="8" Background="Azure" Click="voyti_Click"/>
         <Button x:Name="zareg" Content="Зарегестрироваться?" Grid.Column="5" Grid.Row="7" Grid.ColumnSpan="2" Background="CornflowerBlue" VerticalAlignment="Top" Click="Button_Click"/>
         <TextBlock Text="Ещё не зареганы -->" Grid.Column="3" Grid.Row="7" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top"/>
     </Grid>
