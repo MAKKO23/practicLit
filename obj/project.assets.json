@@ -2890,11 +2890,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\student\\Desktop\\practicLit\\WpfApp1.csproj",
+      "projectUniqueName": "D:\\practicLit\\WpfApp1.csproj",
       "projectName": "WpfApp1",
-      "projectPath": "C:\\Users\\student\\Desktop\\practicLit\\WpfApp1.csproj",
+      "projectPath": "D:\\practicLit\\WpfApp1.csproj",
       "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\student\\Desktop\\practicLit\\obj\\",
+      "outputPath": "D:\\practicLit\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",

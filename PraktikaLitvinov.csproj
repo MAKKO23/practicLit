@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\email.png" />
+    <None Remove="Images\glaz.png" />
+    <None Remove="Images\login.png" />
+    <None Remove="Images\password.png" />
+    <None Remove="Images\repeat.png" />
+    <None Remove="Images\глаз_закрыт.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\email.png" />
+    <Resource Include="Images\glaz.png" />
+    <Resource Include="Images\login.png" />
+    <Resource Include="Images\password.png" />
+    <Resource Include="Images\repeat.png" />
+    <Resource Include="Images\глаз_закрыт.png" />
+  </ItemGroup>
+
+</Project>
